@@ -9,6 +9,8 @@ const int NUM_LEVELS = 10;
 
 //function prototypes...
 int randomNumberBetween(unsigned int, unsigned int);
+double avgPlayerScore(vector <int> score);
+
 
 int main()
 {
@@ -52,3 +54,14 @@ int randomNumberBetween(unsigned int min, unsigned int max)
   
   return rand() % (max+1-min) + min;
 }
+
+double avgPlayerScore(vector <int> score)
+{
+
+
+
+}
+
+
+
+
